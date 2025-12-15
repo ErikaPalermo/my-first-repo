@@ -1,1 +1,88 @@
-<h1>Css Styling</h1>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+background: #EEEEEE;
+font-family: Times, sans-serif;
+line-height: 1.6;
+}
+
+header {
+background: #452829;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+header h1 {
+margin-bottom: 10px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin: 0 15px;
+padding: 5px 10px;
+border-radius: 3px;
+transition: background 0.3s;
+}
+
+nav a:hover {
+background: #452829;
+}
+
+main {
+max-width: 800px;
+margin: 40px auto;
+padding: 20px;
+background: white;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h2 {
+color: 452829;
+margin-bottom: 15px;
+}
+
+p:hover {
+background-color:#452829;
+color: white;
+padding: 10px 20px;
+border: none;
+transition: background-color 0.3s ease;
+margin-bottom: 10px;
+}
+ul:hover {
+background-color: #452829;
+color: white;
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+transition: background-color 0.3s ease;
+margin-bottom: 10px;
+}
+
+.highlight {
+color: #white;
+font weight: bold;
+}
+
+.profile-img {
+width: 100px;
+border-radius:0%;
+}
+.profile-img {
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid #333;
+}
+
+footer {
+text-align: center;
+padding: 20px;
+color: #666;
+}
